@@ -1,30 +1,42 @@
 # undefined
-## Title:
-Wonderful
+# Table of Contents: 
+  [Title](#title)
+  [Description](#description)
+  [Installation](#installation)
+  [Usage](#usage)
+  [Contribution](#contributors)
+  [Tests](#test)
+  [Questions](#questions)
+  [License(#license)
+  [Email](#email)
+  [GitHub](#github)
 
-## Description:
-the best app ever!
+# Title: 
+Badge Check
+
+# Description:
+almost done!!
 ---
-## Installation:
+# Installation:
 undefined
 
-## Usage:
+# Usage:
 undefined
 
-## __Contribution:__
-Bella and Trevor
+# Contribution:
+me
 
-## __Tests:__
+# Tests:
+badge
 
+# Questions:
+Does the badge display?
 
-## __Questions:__
-No
-
-## License:
+# License:
  
 
-## Email
+# Email:
 undefined
 
-## GitHub
+# GitHub:
 undefined

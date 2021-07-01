@@ -29,7 +29,7 @@ var generateMarkdown = require('./utils/generateMarkdown.js');
 //         }
 //     } while (!rmObject)
 // };
-// TODO: Create an array of questions for user input
+// TODO: Create an array of questions for user input (inquirer)
 const questions = [
     {
         type: 'input',
@@ -42,10 +42,14 @@ const questions = [
         message: 'Type in your description.'
     },
     {
-        type: 'list',
-        name: 'license',
-        message: 'Which licence would you like to include?',
-        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD3', 'None']
+        type: 'input',
+        name: 'installation',
+        message: 'How do you install?'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'How is it used?'
     },
     {
         type: 'input',
@@ -61,6 +65,22 @@ const questions = [
         type: 'input',
         name: 'questions',
         message: 'Do you have any questions?'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Which licence would you like to include?',
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'None']
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub name?'
     }
 ];
 

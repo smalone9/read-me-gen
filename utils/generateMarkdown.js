@@ -14,9 +14,6 @@ if (licenseType === 'Apache 2.0'){
 if (licenseType === 'GPL 3.0'){
   licenseString === `![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`
 };
-if (licenseType === 'BSD3'){
-  licenseString === ``
-};
 // // If there is no license, return an empty string
 if (licenseType === 'None'){
   licenseString === `![License: 'None'}](http://img.shields.io/badge/License-None)`
