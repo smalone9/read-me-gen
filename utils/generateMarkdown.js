@@ -1,14 +1,25 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-
-
 // If there is no license, return an empty string
-
-function renderLicenseBadge(license) {
-${data.license}
-if (license === 'MIT'){
-  return 
-  // badge information
-}
+function badge(data) {
+const licenseType = data.license[0];
+// badge information
+let licenseString = " "
+if (licenseType === 'MIT'){
+  licenseString === `![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`
+};
+if (licenseType === 'Apache 2.0'){
+  licenseString === `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`
+};
+if (licenseType === 'GPL 3.0'){
+  licenseString === `![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`
+};
+if (licenseType === 'BSD3'){
+  licenseString === ``
+};
+if (licenseType === 'None'){
+  licenseString === ``
+};
+return licenseString
 }
 // TODO: Create a function that returns the license link
 ![License: ${(data.license)data.license 'None'}](http://img.shields.io/badge/License-${(data.lic) ? data.license : 'None'})
@@ -39,4 +50,4 @@ ${data.questions}
   return `# ${data.title}
 }`
 
-module.exports = generateMarkdown
+module.exports = generateMarkdown;
