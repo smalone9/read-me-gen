@@ -1,22 +1,21 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function badge(data) {
-const licenseType = data.license[0];
+function badge(licenseChoice) {
 // badge information
 // TODO: Create a function that returns the license link
 let licenseString = " "
-if (licenseType === 'MIT'){
-  licenseString === `![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`
-};
-if (licenseType === 'Apache 2.0'){
-  licenseString === `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`
-};
-if (licenseType === 'GPL 3.0'){
-  licenseString === `![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`
-};
+if (licenseChoice === 'MIT'){
+  licenseString = `![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`
+}
+else if (licenseChoice === 'Apache 2.0'){
+  licenseString = `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`
+}
+else if (licenseChoice === 'GPL 3.0'){
+  licenseString = `![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`
+}
 // // If there is no license, return an empty string
-if (licenseType === 'None'){
-  licenseString === `![License: 'None'}](http://img.shields.io/badge/License-None)`
+else if (licenseChoice === 'None'){
+  licenseString = `![License: 'None'}](http://img.shields.io/badge/License-None)`
 };
 return licenseString
 }
@@ -24,12 +23,12 @@ return licenseString
 function generateMarkdown(data) {
   return `# ${data.name}
 # Table of Contents: 
-  [Title](#title)
+  * [Title](#title)
   [Description](#description)
   [Installation](#installation)
   [Usage](#usage)
-  [Contribution](#contributors)
-  [Tests](#test)
+  [Contribution](#contribution)
+  [Tests](#tests)
   [Questions](#questions)
   [License(#license)
   [Email](#email)
@@ -57,7 +56,7 @@ ${data.test}
 ${data.questions}
 
 # License:
-${badge(data)}
+${badge(data.license)}
 
 # Email:
 ${data.email}

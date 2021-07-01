@@ -6,30 +6,6 @@ const path = require('path');
 // create generateMarkdown var
 var generateMarkdown = require('./utils/generateMarkdown.js');
 
-// const writeToFile = (fileName, data) => {
-//     let rmObject = {}
-//     do {
-//         const { rmUser, rmRepo } = prompt([
-//            {
-//             type: 'input',
-//             name: 'rmUser',
-//             message: 'What is your GitHub User name?'
-//            },
-//            {
-//                type: 'input',
-//                name: 'rmRepo',
-//                message: 'What is your Repo name?'
-//            }
-//         ])
-//         rmObject = await applicationCache.getUser(rmUser, rmRepo)
-//         if (!rmObject) {
-//             console.error('Repo Not Found!')
-//         } else {
-//             console.log(`${rmObject.fullName} found!`)
-//         }
-//     } while (!rmObject)
-// };
-// TODO: Create an array of questions for user input (inquirer)
 const questions = [
     {
         type: 'input',
@@ -87,6 +63,7 @@ const questions = [
 // TODO: Create a function to write README file, name of file created
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(__dirname, fileName),data)
+// add function path.join with outputDir/fileName
 }
 
 // TODO: Create a function to initialize app
