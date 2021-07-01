@@ -12,13 +12,13 @@
   [GitHub](#github)
 
 # Title: 
-Badge Check
+Rock of Ages
 
 # Description:
-almost done!!
+rockin app
 ---
 # Installation:
-undefined
+oh, you know...
 
 # Usage:
 undefined
@@ -27,16 +27,16 @@ undefined
 me
 
 # Tests:
-badge
+Does it work?
 
 # Questions:
-Does the badge display?
+so many
 
 # License:
  
 
 # Email:
-undefined
+rockstar@gmail.com
 
 # GitHub:
-undefined
+rockStar
