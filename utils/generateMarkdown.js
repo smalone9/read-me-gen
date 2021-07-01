@@ -26,8 +26,10 @@ return licenseString
 // // TODO: Create a function to generate markdown for README add template literals, add table of contents
 function generateMarkdown(data) {
   return `# ${data.name}
+## Title:
+${data.title}
 
-## Description
+## Description:
 ${data.description}
 ---
 ## Installation:
@@ -44,7 +46,15 @@ ${data.test}
 
 ## __Questions:__
 ${data.questions}
-  return `# ${data.title}
+
+## License:
+${badge(data)}
+
+## Email
+${data.email}
+
+## GitHub
+${data.github}`
 }
 
 module.exports = generateMarkdown;
