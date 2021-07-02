@@ -24,15 +24,15 @@ function generateMarkdown(data) {
   return `# ${data.name}
 # Table of Contents: 
   * [Title](#title)
-  [Description](#description)
-  [Installation](#installation)
-  [Usage](#usage)
-  [Contribution](#contribution)
-  [Tests](#tests)
-  [Questions](#questions)
-  [License(#license)
-  [Email](#email)
-  [GitHub](#github)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [License(#license)
+  * [Email](#email)
+  * [GitHub](#github)
 
 # Title: 
 ${data.title}
