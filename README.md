@@ -1,42 +1,42 @@
 # undefined
 # Table of Contents: 
   * [Title](#title)
-  [Description](#description)
-  [Installation](#installation)
-  [Usage](#usage)
-  [Contribution](#contribution)
-  [Tests](#tests)
-  [Questions](#questions)
-  [License(#license)
-  [Email](#email)
-  [GitHub](#github)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [License(#license)
+  * [Email](#email)
+  * [GitHub](#github)
 
 # Title: 
-hdajk
+Friday
 
 # Description:
-hdsdjhask
+Almost the weekend
 ---
 # Installation:
-djlkdj
+npm i
 
 # Usage:
 undefined
 
 # Contribution:
-djhdua
+Samantha Malone
 
 # Tests:
-fhjhduf
+
 
 # Questions:
-dhuf
+Do you work?
 
 # License:
-![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 # Email:
-dhah
+friday@gmail.com
 
 # GitHub:
-dhkdh
+Friday
