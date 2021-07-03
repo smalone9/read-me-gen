@@ -7,15 +7,15 @@
   * [Contribution](#contribution)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [License(#license)
+  * [License](#license)
   * [Email](#email)
   * [GitHub](#github)
 
 # Title: 
-Friday
+Read Me Gen
 
 # Description:
-Almost the weekend
+a read me generator using Inquirer
 ---
 # Installation:
 npm i
@@ -27,16 +27,16 @@ undefined
 Samantha Malone
 
 # Tests:
-
+npm run test
 
 # Questions:
-Do you work?
+How do I fix my License link?
 
 # License:
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 # Email:
-friday@gmail.com
+sammac99@gmail.com
 
 # GitHub:
-Friday
+smalone9
