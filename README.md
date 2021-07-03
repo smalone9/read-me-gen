@@ -12,10 +12,10 @@
   * [GitHub](#github)
 
 # Title: 
-Read Me Gen
+Friday
 
 # Description:
-a read me generator using Inquirer
+almost the weekend
 ---
 # Installation:
 npm i
@@ -30,13 +30,13 @@ Samantha Malone
 npm run test
 
 # Questions:
-How do I fix my License link?
+Does this work?
 
 # License:
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 # Email:
-sammac99@gmail.com
+friday@gmail.com
 
 # GitHub:
-smalone9
+friday

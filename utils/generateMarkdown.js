@@ -44,7 +44,7 @@ ${data.description}
 ${data.installation}
 
 # Usage:
-${data.use}
+${data.usage}
 
 # Contribution:
 ${data.contributors}
