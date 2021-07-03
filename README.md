@@ -12,31 +12,31 @@
   * [GitHub](#github)
 
 # Title: 
-Friday
+Read-Me Gen
 
 # Description:
-almost the weekend
+Module 9 Challenge: Node and Inquirer *Quickly create a professional README for a new project 
 ---
 # Installation:
 npm i
 
 # Usage:
-undefined
+Given a command line application and user input, a high-quality, professional README.md is generated with a title, description, table of contents with links, installation, usage, license with badge display, contributing, tests, and questions
 
 # Contribution:
-Samantha Malone
+Made with love by Samantha Malone
 
 # Tests:
 npm run test
 
 # Questions:
-Does this work?
+What do you think?
 
 # License:
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 # Email:
-friday@gmail.com
+sammac99@gmail.com
 
 # GitHub:
-friday
+Smalone9
